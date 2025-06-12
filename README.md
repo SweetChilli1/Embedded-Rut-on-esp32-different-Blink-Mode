@@ -4,7 +4,7 @@ This is my first little Rust program for the esp32.
 ## Setup:
 It consists of an ESP32, 3 buttons and on LED. Each button has it's own mode:
 
-|**Button**      | ** Function**
+|**Button**      | **Function**
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | **Button 1 (white)** | Led lights up as long as the button is pressed
 | **Button 2 (red)** | Led flashes with an delay of 500 milliseconds as long as the button is pressed
