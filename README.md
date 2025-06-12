@@ -10,7 +10,7 @@ It consists of an ESP32, 3 buttons and on LED. Each button has it's own mode:
 | **Button 2 (red)** | Led flashes with an delay of 500 milliseconds as long as the button is pressed
 | **Button 3 (blue)** | Led flashes in an SOS cycle. If the button is pressed once, it flashes one round of SOS. If the button remains pressed, the LED flashes for as long as the button remains pressed
 
-<img src="images/1.jpg" alt="Setup" width="300">
+<img src="images/1.jpg" alt="Setup" width="500">
 
 ### Info:
 [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)<br>
