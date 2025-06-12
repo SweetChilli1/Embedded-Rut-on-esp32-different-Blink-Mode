@@ -1,4 +1,4 @@
-# Embedded-Rut-on-esp32-different-Blink-Mode
+# Embedded-Rust-on-esp32-different-Blink-Mode
 
 This is my first little Rust program for the esp32. 
 
