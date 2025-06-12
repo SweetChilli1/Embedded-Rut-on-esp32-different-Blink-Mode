@@ -4,13 +4,15 @@ This is my first little Rust program for the esp32.
 ## Setup:
 It consists of an ESP32, 3 buttons and on LED. Each button has it's own mode:
 
-|**Button**      | **Function**
-|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| **Button 1 (white)** | Led lights up as long as the button is pressed
-| **Button 2 (red)** | Led flashes with an delay of 500 milliseconds as long as the button is pressed
-| **Button 3 (blue)** | Led flashes in an SOS cycle. If the button is pressed once, it flashes one round of SOS. If the button remains pressed, the LED flashes for as long as the button remains pressed
+|**Element** | **Gpio**      | **Function**
+|-----------|----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| **Led** | 13 | Show the output
+| **Button 1 (white)** | 4 | Led lights up as long as the button is pressed
+| **Button 2 (red)** | 21 | Led flashes with an delay of 500 milliseconds as long as the button is pressed
+| **Button 3 (blue)** | 23 | Led flashes in an SOS cycle. If the button is pressed once, it flashes one round of SOS. If the button remains pressed, the LED flashes for as long as the button remains pressed
 
-<img src="images/1.jpg" alt="Setup" width="500">
+
+<img src="images/1.jpg" alt="Setup" width="700">
 
 ### Info:
 [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)<br>
