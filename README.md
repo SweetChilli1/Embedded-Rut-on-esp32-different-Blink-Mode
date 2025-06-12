@@ -11,6 +11,8 @@ It consists of an ESP32, 3 buttons and on LED. Each button has it's own mode:
 | **Button 2 (red)** | 21 | Led flashes with an delay of 500 milliseconds as long as the button is pressed
 | **Button 3 (blue)** | 23 | Led flashes in an SOS cycle. If the button is pressed once, it flashes one round of SOS. If the button remains pressed, the LED flashes for as long as the button remains pressed
 
+<img src="images/1.jpg" alt="Setup" width="700">
+
 ### Serial Output from each mode:
 ```bash
 $ cargo run
@@ -44,7 +46,7 @@ Led Mode: SOS                # -> button 3 is pressed
 Led Mode: Off                # -> button isn't pressed any more
 ```
 
-<img src="images/1.jpg" alt="Setup" width="700">
+
 
 ### Info:
 [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)<br>
