@@ -1,6 +1,6 @@
 # Embedded-Rut-on-esp32-different-Blink-Mode🦀
 
-This is my first little Rust program for the esp32. 
+This is my first small Rust program for the esp32. 
 ## Setup:
 It consists of an ESP32, 3 buttons and on LED. Each button has it's own mode:
 
